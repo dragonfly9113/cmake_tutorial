@@ -31,8 +31,10 @@ int main(int argc, char *argv[])
 	else {
 #ifdef USE_MYMATH
 		outputValue = mysqrt(inputValue);
+		fprintf(stdout, "Use my math version.\n");
 #else
 		outputValue = sqrt(inputValue);
+		fprintf(stdout, "Use system math version.\n");
 #endif
 	}
 
