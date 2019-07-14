@@ -1,3 +1,5 @@
+#pragma once
+
 #include "MathFunctions.h"
 
 double mysqrt(double input)

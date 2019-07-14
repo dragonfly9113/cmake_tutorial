@@ -1,4 +1,5 @@
 // A simple program that computes the squre root of a number
+#pragma once
 
 #include <stdio.h>
 #include <stdlib.h>
